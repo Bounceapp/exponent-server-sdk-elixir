@@ -1,7 +1,6 @@
 ExponentServerSdk
 ========
-[![Build Status](https://travis-ci.org/Bounceapp/exponent-server-sdk-elixir.svg?branch=master)](https://travis-ci.org/rdrop/exponent-server-sdk-elixir)
-[![Inline docs](https://inch-ci.org/github/Bounceapp/exponent-server-sdk-elixir.svg?branch=master)](https://inch-ci.org/github/rdrop/exponent-server-sdk-elixir)
+This is a fork from https://github.com/rdrop/exponent-server-sdk-elixir.
 
 Use to send push notifications to Exponent Experiences from an Elixir/Phoenix server.
 
