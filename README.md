@@ -1,8 +1,7 @@
 ExponentServerSdk
 ========
-[![Hex.pm](https://img.shields.io/hexpm/v/exponent_server_sdk.svg)](https://hex.pm/packages/exponent_server_sdk)
-[![Build Status](https://travis-ci.org/rdrop/exponent-server-sdk-elixir.svg?branch=master)](https://travis-ci.org/rdrop/exponent-server-sdk-elixir)
-[![Inline docs](https://inch-ci.org/github/rdrop/exponent-server-sdk-elixir.svg?branch=master)](https://inch-ci.org/github/rdrop/exponent-server-sdk-elixir)
+[![Build Status](https://travis-ci.org/Bounceapp/exponent-server-sdk-elixir.svg?branch=master)](https://travis-ci.org/rdrop/exponent-server-sdk-elixir)
+[![Inline docs](https://inch-ci.org/github/Bounceapp/exponent-server-sdk-elixir.svg?branch=master)](https://inch-ci.org/github/rdrop/exponent-server-sdk-elixir)
 
 Use to send push notifications to Exponent Experiences from an Elixir/Phoenix server.
 
@@ -12,19 +11,11 @@ ExponentServerSdk is currently able to push single and multiple messages to the 
 
 All HTTPoison Post Request body are automatically GZIP compressed
 
-You can install it from Hex:
+You can install it from from Github:
 
 ```elixir
 def deps do
-  [{:exponent_server_sdk, "~> 0.2.0"}]
-end
-```
-
-Or from Github:
-
-```elixir
-def deps do
-  [{:exponent_server_sdk, github: "rdrop/exponent-server-sdk-elixir"}]
+  [{:exponent_server_sdk, github: "Bounceapp/exponent-server-sdk-elixir"}]
 end
 ```
 
